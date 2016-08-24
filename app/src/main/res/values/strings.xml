@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Eventos Guayaquil</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_exit">Salir</string>
+
+
+    <!-- TODO: Pantalla de Registro-->
+    <string name="text_titulo_registro">Registro </string>
+    <string name="text_nombres">Nombres: </string>
+    <string name="text_apellidos">Apellidos: </string>
+    <string name="text_fechanac">Fecha Nacimiento: </string>
+    <string name="text_direccion">Direccion: </string>
+    <string name="text_telefono">Telefono: </string>
+    <string name="text_correo">Correo: </string>
+    <string name="text_password">Password: </string>
+    <string name="text_genero">Genero: </string>
+
+
+    <!-- TODO: Pantalla Fotos -->
+    <string name="text_titulo_fotos">Fotos </string>
+
+
+    <string name="hello_blank_fragment">Fotos fragment</string>
+</resources>

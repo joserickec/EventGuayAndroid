@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_registro"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Registro" />
+        <item
+            android:id="@+id/nav_fotos"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Fotos" />
+        <item
+            android:id="@+id/nav_eventos"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Eventos" />
+        <item
+            android:id="@+id/nav_herramientas"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Herramientas" />
+    </group>
+
+    <item android:title="Redes">
+        <menu>
+            <item
+                android:id="@+id/nav_compartir"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartir" />
+            <item
+                android:id="@+id/nav_enviar"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Enviar" />
+        </menu>
+    </item>
+
+</menu>

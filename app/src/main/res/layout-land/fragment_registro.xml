@@ -1,0 +1,157 @@
+
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="net.camtrunet.eventsguay.Fragments.RegistroFragment">
+
+
+<LinearLayout
+
+    android:id="@+id/fragment_registro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="fill"
+    android:baselineAligned="false"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="@string/text_titulo_registro"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_nombres"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/fragment_registro_EDnombres"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="Ingrese sus Nombres"
+        android:layout_weight="1" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_apellidos"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/fragment_registro_EDapellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese sus Apellidos"
+        android:layout_weight="1" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_apellidos"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_weight="1" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+    <EditText
+        android:id="@+id/fragment_registro_EDfechnac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha de Nacimiento"
+        android:layout_weight="2"
+        />
+
+    <Button
+        android:id="@+id/fragment_crimen_btnFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_direccion"
+        style="?android:listSeparatorTextViewStyle"
+        />
+
+    <EditText
+        android:id="@+id/fragment_registro_EDdireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su Direccion" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_telefono"
+        style="?android:listSeparatorTextViewStyle"
+        />
+
+
+    <EditText
+        android:id="@+id/fragment_registro_EDtelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su Telefono" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_correo"
+        style="?android:listSeparatorTextViewStyle"
+        />
+
+    <EditText
+        android:id="@+id/fragment_registro_EDcorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su Correo" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_genero"
+        style="?android:listSeparatorTextViewStyle"
+        />
+
+    <RadioButton
+        android:id="@+id/fragment_registro_RDmas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Masculino" />
+
+    <RadioButton
+        android:id="@+id/fragment_registro_RDfem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Femenino"
+        />
+
+</LinearLayout>
+</ScrollView>
