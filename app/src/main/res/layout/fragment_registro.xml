@@ -140,18 +140,31 @@ tools:context="net.camtrunet.eventsguay.Fragments.RegistroFragment">
         style="?android:listSeparatorTextViewStyle"
         />
 
+
+
+
+
+
+
+
     <RadioButton
         android:id="@+id/fragment_registro_RDmas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Masculino" />
+        android:hint="Masculino"
+
+
+        />
 
     <RadioButton
         android:id="@+id/fragment_registro_RDfem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Femenino"
+
         />
 
-</LinearLayout>
+
+    </LinearLayout>
+
 </ScrollView>

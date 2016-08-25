@@ -16,6 +16,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import net.camtrunet.eventsguay.Fragments.RegistroFragment;
+import net.camtrunet.eventsguay.FragmentsEventos.EventosFragment;
+import net.camtrunet.eventsguay.FragmentsFotos.FotosFragment;
 
 public class EventsActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -94,15 +96,23 @@ public class EventsActivity extends AppCompatActivity
 
 
 
-        } else if (id == R.id.nav_fotos) {
+        } else if (id == R.id.nav_sitios) {
 
 
-            Intent i=new Intent(this, FotosActivity.class);
-            startActivity(i);
+
+            fragment = new FotosFragment();
+            FragmentTransaction = true;
+
+            //Intent i=new Intent(this, FotosActivity.class);
+            //startActivity(i);
 
 
 
         } else if (id == R.id.nav_eventos) {
+
+
+            fragment = new EventosFragment();
+            FragmentTransaction = true;
 
         } else if (id == R.id.nav_herramientas) {
 

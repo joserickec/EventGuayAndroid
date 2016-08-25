@@ -19,9 +19,36 @@
     <string name="text_genero">Genero: </string>
 
 
+
+
+
+
+    <!-- TODO: Pantalla Eventos -->
+
+    <string name="text_titulo_eventos">Eventos </string>
+    <string name="tit_eventos">Eventos fragment</string>
+
+
     <!-- TODO: Pantalla Fotos -->
+    <string name="text_titulo_Malecon">Malecon2000 </string>
+    <string name="text_titulo_Catedral">Catedral </string>
+
+    <string name="text_titulo_torre">Torre Reloj </string>
+    <string name="text_titulo_santay">Isla Santay </string>
+
     <string name="text_titulo_fotos">Fotos </string>
+    <string name="text_melecon2000"> Malecón 2000, ubicado en la ciudad de Guayaquil, junto al río Guayas, es un proyecto de regeneración urbana del antiguo Malecón Simón Bolívar, de 2.5 km de extensión en donde se puede disfrutar de los grandes monumentos de la historia de Guayaquil, como el Hemiciclo de la Rotonda, museos, jardines, fuentes, centro comercial, restaurantes, bares, patios de comida, el primer cine IMAX de Sudamérica, así como muelles, desde donde se puede abordar embarcaciones para realizar paseos diurnos y nocturnos por el río Guayas y miradores entre otras atracciones. </string>
+    <string name="text_catedral"> La Catedral Metropolitana de Guayaquil (oficialmente Catedral de San Pedro)1 es una catedral ecuatoriana que se encuentra en pleno centro de Guayaquil, en el Parque Seminario, fue construida originalmente en madera alrededor de 1547, en la que en esa época era la Plaza Mayor de la ciudad, y reedificada en cemento armado en el siglo XX, en estilo neogótico. Fue la iglesia matriz desde mediados del siglo XVI. </string>
 
 
-    <string name="hello_blank_fragment">Fotos fragment</string>
+    <string name="text_torre"> En 1842 el Gobernador de Guayaquil, Vicente Rocafuerte, trajo de Europa y obsequió a la ciudad el reloj público, que está en lo alto de la torre morisca ubicada en el Malecón, a la altura de la calle Diez de Agosto. Inicialmente el reloj permanecía en lo alto del cabildo colonial para después ser trasladado hasta la torre del mercado de abasto.</string>
+    <string name="text_santay"> La isla Santay es una isla ecuatoriana. Se encuentra en el río Guayas a 800 metros de distancia de la ciudad de Guayaquil y pertenece al cantón Durán. El área de la isla comprende 2.179 hectáreas. Allí radican 56 familias ubicadas en 46 casas, 36 de las cuales se encuentran al ingreso de la zona. Minicensos han establecido que la isla tiene entre 207 y 230 habitantes.1 Desde el 10 de octubre del 2000 la isla es un sitio Ramsar (nº. ref 10412 ), el sexto humedal declarado en Ecuador con una área total de 4.705 hectáreas. A partir del 20 de febrero del 2010, la isla Santay es también un Área Protegida y forma parte del Sistema Nacional de Áreas protegidas como Área Nacional de Recreación. </string>
+    <string name="hello_blank_fragment">Hello Bank!!!</string>
+    <string name="tit_foto">Fotos fragment</string>
+
+
+
+
+
+
 </resources>
