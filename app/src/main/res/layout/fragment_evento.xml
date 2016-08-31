@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_evento"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/evento_titulo_label"
+        style="?android:listSeparatorTextViewStyle"/>
+    <EditText
+        android:id="@+id/fragment_evento_edTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el título del Evento"/>
+
+    <EditText
+        android:id="@+id/fragment_evento_edDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el título del Evento"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/evento_detalle_label"
+        style="?android:listSeparatorTextViewStyle"/>
+    <Button
+        android:id="@+id/fragment_evento_btnFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+    <CheckBox
+        android:id="@+id/fragment_evento_chResuelto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+
+        android:text="@string/evento_estado_label"/>
+
+    <Button
+        android:text="Guardar"
+        android:id="@+id/fragment_evento_btnguardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+
+
+</LinearLayout>

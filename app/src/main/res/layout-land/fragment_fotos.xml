@@ -3,7 +3,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-tools:context="net.camtrunet.eventsguay.FragmentsFotos.FotosFragment">
+tools:context=".FragmentsFotos.EventoFragment">
 
 
 <LinearLayout
@@ -90,16 +90,13 @@ tools:context="net.camtrunet.eventsguay.FragmentsFotos.FotosFragment">
         android:layout_centerHorizontal="true"
         android:gravity="fill_horizontal"
         android:layout_weight="1"
-
         />
-
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@mipmap/catedral"
         android:layout_weight="2"
-
         />
 
 

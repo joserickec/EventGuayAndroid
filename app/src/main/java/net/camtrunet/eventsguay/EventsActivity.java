@@ -1,11 +1,7 @@
 package net.camtrunet.eventsguay;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -17,7 +13,7 @@ import android.view.MenuItem;
 
 import net.camtrunet.eventsguay.Fragments.RegistroFragment;
 import net.camtrunet.eventsguay.FragmentsEventos.EventosFragment;
-import net.camtrunet.eventsguay.FragmentsFotos.FotosFragment;
+import net.camtrunet.eventsguay.FragmentsFotos.EventoFragment;
 
 public class EventsActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -100,10 +96,10 @@ public class EventsActivity extends AppCompatActivity
 
 
 
-            fragment = new FotosFragment();
+            fragment = new EventoFragment();
             FragmentTransaction = true;
 
-            //Intent i=new Intent(this, FotosActivity.class);
+            //Intent i=new Intent(this, NFotosActivity.class);
             //startActivity(i);
 
 

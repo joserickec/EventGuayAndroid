@@ -19,14 +19,15 @@
     <string name="text_genero">Genero: </string>
 
 
-
-
-
-
     <!-- TODO: Pantalla Eventos -->
 
     <string name="text_titulo_eventos">Eventos </string>
     <string name="tit_eventos">Eventos fragment</string>
+
+
+    <string name="evento_titulo_label">Eventos Titulo </string>
+    <string name="evento_detalle_label">Eventos Detalle</string>
+    <string name="evento_estado_label">Eventos Estado</string>
 
 
     <!-- TODO: Pantalla Fotos -->
@@ -46,9 +47,7 @@
     <string name="hello_blank_fragment">Hello Bank!!!</string>
     <string name="tit_foto">Fotos fragment</string>
 
-
-
-
+    <string name="new_event">Nuevo Evento</string>
 
 
 </resources>
