@@ -11,6 +11,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import net.camtrunet.eventsguay.FragmentSitios.SitiosFragment;
 import net.camtrunet.eventsguay.Fragments.RegistroFragment;
 import net.camtrunet.eventsguay.FragmentsEventos.EventosFragment;
 import net.camtrunet.eventsguay.FragmentsFotos.EventoFragment;
@@ -96,12 +97,8 @@ public class EventsActivity extends AppCompatActivity
 
 
 
-            fragment = new EventoFragment();
+            fragment = new SitiosFragment();
             FragmentTransaction = true;
-
-            //Intent i=new Intent(this, NFotosActivity.class);
-            //startActivity(i);
-
 
 
         } else if (id == R.id.nav_eventos) {

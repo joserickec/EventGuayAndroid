@@ -8,6 +8,16 @@
       </config>
     </shared>
     <layouts>
+      <layout url="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/activity_fotos.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/fragment_evento.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
       <layout url="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/fragment_eventos.xml">
         <config>
           <theme>@style/AppTheme</theme>
@@ -20,17 +30,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bfd1118-0827-440d-8319-a09f32abda46" name="Default" comment="">
-      <change type="DELETED" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.idea/libraries/animated_vector_drawable_23_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.idea/libraries/appcompat_v7_23_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.idea/libraries/design_23_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.idea/libraries/hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.idea/libraries/junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.idea/libraries/recyclerview_v7_23_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.idea/libraries/support_annotations_23_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.idea/libraries/support_v4_23_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.idea/libraries/support_vector_drawable_23_4_0.xml" afterPath="" />
-      <change type="MOVED" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/FotosActivity.java" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/EventoActivity.java" />
-      <change type="MOVED" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/FragmentsFotos/FotosFragment.java" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/FragmentsFotos/EventoFragment.java" />
+      <change type="NEW" beforePath="" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/RedesActivity.java" />
+      <change type="NEW" beforePath="" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/activity_redes.xml" />
       <change type="MODIFICATION" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.gradle/2.10/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.gradle/2.10/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
@@ -38,20 +39,16 @@
       <change type="MODIFICATION" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/build/generated/mockable-android-23.jar" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/build/generated/mockable-android-23.jar" />
-      <change type="MODIFICATION" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.idea/vcs.xml" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.idea/workspace.xml" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/EventsGuay.iml" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/EventsGuay.iml" />
       <change type="MODIFICATION" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/app.iml" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/app.iml" />
-      <change type="MODIFICATION" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/build.gradle" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/build.gradle" />
       <change type="MODIFICATION" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/AndroidManifest.xml" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/EventsActivity.java" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/EventsActivity.java" />
       <change type="MODIFICATION" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/FragmentsEventos/EventosFragment.java" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/FragmentsEventos/EventosFragment.java" />
-      <change type="MODIFICATION" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout-land/fragment_fotos.xml" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout-land/fragment_fotos.xml" />
-      <change type="MODIFICATION" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/fragment_eventos.xml" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/fragment_eventos.xml" />
-      <change type="MODIFICATION" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/fragment_fotos.xml" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/fragment_fotos.xml" />
+      <change type="MODIFICATION" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/FragmentsFotos/EventoFragment.java" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/FragmentsFotos/EventoFragment.java" />
+      <change type="MODIFICATION" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/activity_fotos.xml" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/activity_fotos.xml" />
+      <change type="MODIFICATION" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/fragment_evento.xml" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/fragment_evento.xml" />
+      <change type="MODIFICATION" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/list_item_event.xml" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/list_item_event.xml" />
       <change type="MODIFICATION" beforePath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/values/strings.xml" afterPath="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/values/strings.xml" />
     </list>
     <ignored path="EventsGuay.iws" />
@@ -68,31 +65,47 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="EventsGuay" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+            </PATH>
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="EventsGuay" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="SingleFragmentActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/SingleFragmentActivity.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Evento.java" pinned="false" current-in-tab="false">
+        <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/Dominio/Evento.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventoFragment.java" pinned="false" current-in-tab="true">
-        <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/FragmentsFotos/EventoFragment.java">
+      <file leaf-file-name="EventosFragment.java" pinned="false" current-in-tab="true">
+        <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/FragmentsEventos/EventosFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6030928">
-              <caret line="167" column="35" selection-start-line="167" selection-start-column="35" selection-end-line="167" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.3984576">
+              <caret line="188" column="17" selection-start-line="188" selection-start-column="17" selection-end-line="188" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1446,7 +1459,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4408754740108" />
+        <entry key="$PROJECT_DIR$" value="4408754736000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1778,17 +1791,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/fragment_eventos.xml" />
-        <option value="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/AndroidManifest.xml" />
         <option value="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/menu/fragment_event_list.xml" />
-        <option value="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/list_item_event.xml" />
-        <option value="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/EventsActivity.java" />
         <option value="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/activity_list_evento.xml" />
         <option value="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/EventoActivity.java" />
+        <option value="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/SingleFragmentActivity.java" />
+        <option value="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/AndroidManifest.xml" />
+        <option value="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/FragmentSitios/SitiosFragment.java" />
+        <option value="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/EventsActivity.java" />
+        <option value="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/list_item_event.xml" />
         <option value="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/values/strings.xml" />
         <option value="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/fragment_evento.xml" />
-        <option value="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/SingleFragmentActivity.java" />
-        <option value="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/FragmentsEventos/EventosFragment.java" />
+        <option value="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/activity_fotos.xml" />
         <option value="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/FragmentsFotos/EventoFragment.java" />
+        <option value="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/Dominio/Evento.java" />
+        <option value="/media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/FragmentsEventos/EventosFragment.java" />
       </list>
     </option>
   </component>
@@ -1822,9 +1838,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1850,10 +1863,6 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1867,6 +1876,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1972,18 +1985,75 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eventsguay" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fragments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EventsGuay" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eventsguay" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dominio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EventsGuay" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CrimenDroid_REST" />
-    <property name="device.picker.selection" value="192.168.56.101:5555" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EventsGuayError" />
+    <property name="device.picker.selection" value="4df7c2954c002177" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.SHOW" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.packageName">
+      <recent name="net.camtrunet.eventsguay" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -2277,7 +2347,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32580644" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32419354" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2287,8 +2357,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19166666" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2299,6 +2368,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -2314,44 +2384,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/FragmentsFotos/EventoFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/EventsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/FragmentsEventos/EventosFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="36" selection-start-line="87" selection-start-column="36" selection-end-line="87" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/EventoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2374,53 +2406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/FragmentsEventos/EventosFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="36" selection-start-line="87" selection-start-column="36" selection-end-line="87" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/EventoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/FragmentsFotos/EventoFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/EventsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2428,9 +2413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2438,9 +2420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2466,7 +2445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2474,9 +2452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2484,9 +2459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2512,7 +2484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2520,9 +2491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2530,9 +2498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2558,7 +2523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2566,9 +2530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2576,9 +2537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2604,7 +2562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2612,9 +2569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2628,26 +2582,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/menu/events.xml">
+    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/SingleFragmentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.046272494">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/FragmentSitios/SitiosFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27900553">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24924925">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/app_bar_events.xml">
+      <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
-    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/Dominio/Evento.java">
+    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/content_events.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/list_item_event.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6666665">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/EventsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <caret line="106" column="33" selection-start-line="106" selection-start-column="33" selection-end-line="106" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/list_item_event.xml">
+    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/nav_header_events.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.8965516">
-          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -2655,36 +2668,15 @@
         <state />
       </provider>
     </entry>
-    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/menu/fragment_event_list.xml">
+    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/fragment_registro.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.84586465">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/menu/activity_events_drawer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/EventsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37823835">
-          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding />
-        </state>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/fragment_fotos.xml">
@@ -2698,18 +2690,23 @@
         <state />
       </provider>
     </entry>
-    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/fragment_eventos.xml">
+    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/menu/events.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10150376">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
+    </entry>
+    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/EventoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/activity_fotos.xml">
+    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/activity_redes.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2720,82 +2717,117 @@
         <state />
       </provider>
     </entry>
-    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/activity_list_evento.xml">
+    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/activity_fotos.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54545456">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding>
-            <element signature="e#219#252#0" expanded="true" />
-            <element signature="e#277#312#0" expanded="true" />
-            <element signature="e#338#373#0" expanded="true" />
-            <element signature="e#397#430#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-1.2413793">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/values/strings.xml">
+    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/menu/fragment_event_list.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.99698794">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.25577265">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/fragment_evento.xml">
+    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/menu/activity_events_drawer.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9632107">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#353#382#0" expanded="true" />
-            <element signature="e#980#1010#0" expanded="true" />
-            <element signature="e#1563#1592#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.60746">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
+    </entry>
+    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/RedesActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/activity_events.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/FragmentsEventos/EventosFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1185567">
-          <caret line="191" column="23" selection-start-line="191" selection-start-column="23" selection-end-line="191" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/EventoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2061856">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/SingleFragmentActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/activity_redes.xml">
+      <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/fragment_evento.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/fragment_eventos.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/res/layout/activity_list_evento.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/FragmentsFotos/EventoFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6030928">
-          <caret line="167" column="35" selection-start-line="167" selection-start-column="35" selection-end-line="167" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="1.1105398">
+          <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/Dominio/Evento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///media/DATOS/Dropbox/UNIVERSIDAD/AndroidStudioProjects/EventsGuay/app/src/main/java/net/camtrunet/eventsguay/FragmentsEventos/EventosFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3984576">
+          <caret line="188" column="17" selection-start-line="188" selection-start-column="17" selection-end-line="188" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>

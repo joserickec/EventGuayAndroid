@@ -181,7 +181,7 @@ public class EventosFragment extends Fragment {
         public void bindEvent(Evento evento){
             this.evento=evento;
             txtTitulo.setText(evento.getTitulo());
-            txtDescripcion.setText(evento.getDetalle());
+            txtDescripcion.setText(evento.getUbicacion());
             chEstado.setChecked(evento.isEstado());
             txtFecha.setText(evento.getFecha().toString());
         }

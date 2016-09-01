@@ -24,10 +24,11 @@
     <string name="text_titulo_eventos">Eventos </string>
     <string name="tit_eventos">Eventos fragment</string>
 
+    <string name="evento_titulo_label">Titulo del Evento </string>
+    <string name="evento_detalle_label">Detalle del Evento</string>
+    <string name="evento_fecha_label">Fecha del Evento</string>
 
-    <string name="evento_titulo_label">Eventos Titulo </string>
-    <string name="evento_detalle_label">Eventos Detalle</string>
-    <string name="evento_estado_label">Eventos Estado</string>
+    <string name="evento_estado_label">Estado</string>
 
 
     <!-- TODO: Pantalla Fotos -->

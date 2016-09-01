@@ -9,23 +9,44 @@
         android:layout_height="wrap_content"
         android:text="@string/evento_titulo_label"
         style="?android:listSeparatorTextViewStyle"/>
-    <EditText
+
+
+    <TextView
         android:id="@+id/fragment_evento_edTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Ingrese el título del Evento"/>
+        android:hint="Título del Evento"
+        android:typeface="sans"
+        android:textSize="20sp"
 
-    <EditText
-        android:id="@+id/fragment_evento_edDetalle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Ingrese el título del Evento"/>
+
+        />
+
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/evento_detalle_label"
         style="?android:listSeparatorTextViewStyle"/>
+
+    <TextView
+        android:id="@+id/fragment_evento_edDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Detalle del Evento"
+        android:typeface="sans"
+        android:textSize="20sp"
+
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/evento_fecha_label"
+        style="?android:listSeparatorTextViewStyle"/>
+
     <Button
         android:id="@+id/fragment_evento_btnFecha"
         android:layout_width="match_parent"
@@ -34,15 +55,20 @@
         android:layout_marginRight="16dp"/>
     <CheckBox
         android:id="@+id/fragment_evento_chResuelto"
+        android:enabled="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
 
-        android:text="@string/evento_estado_label"/>
+        android:text="@string/evento_estado_label"
+
+
+        />
+
 
     <Button
-        android:text="Guardar"
+        android:text="IR al Evento"
         android:id="@+id/fragment_evento_btnguardar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

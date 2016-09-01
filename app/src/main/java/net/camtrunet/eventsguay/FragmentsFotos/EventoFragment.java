@@ -20,6 +20,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.google.gson.Gson;
 
+import android.widget.TextView;
 import android.widget.Toast;
 import net.camtrunet.eventsguay.R;
 import net.camtrunet.eventsguay.Dominio.Evento;
@@ -35,8 +36,8 @@ public class EventoFragment extends Fragment {
 
 
 
-    private EditText edTitulo;
-    private EditText edDetalle;
+    private TextView edTitulo;
+    private TextView edDetalle;
     private Button btnFecha;
     private CheckBox chEstado;
 
@@ -68,8 +69,8 @@ public class EventoFragment extends Fragment {
         // Inflate the layout for this fragment
         View view=inflater.inflate(R.layout.fragment_evento, container, false);
 
-        edTitulo=(EditText)view.findViewById(R.id.fragment_evento_edTitulo);
-        edDetalle=(EditText)view.findViewById(R.id.fragment_evento_edDetalle);
+        edTitulo=(TextView)view.findViewById(R.id.fragment_evento_edTitulo);
+        edDetalle=(TextView)view.findViewById(R.id.fragment_evento_edDetalle);
         btnFecha=(Button)view.findViewById(R.id.fragment_evento_btnFecha);
         chEstado=(CheckBox)view.findViewById(R.id.fragment_evento_chResuelto);
         btnguardar=(Button)view.findViewById(R.id.fragment_evento_btnguardar);
@@ -102,18 +103,19 @@ public class EventoFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(getContext(),evento.toString(),Toast.LENGTH_LONG).show();
-
+                //Toast.makeText(getContext(),evento.toString(),Toast.LENGTH_LONG).show();
+                Toast.makeText(getContext(),"Muy Pronto Add Calendar",Toast.LENGTH_LONG).show();
             }
         });
 
         btnguardar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //  Toast.makeText(getContext(),evento.toString(),Toast.LENGTH_LONG).show();
 
-                //Toast.makeText(getContext(),evento.toString(),Toast.LENGTH_LONG).show();
-                postEvento();
+                Toast.makeText(getContext(),"Muy Pronto Google Maps",Toast.LENGTH_LONG).show();
 
+//                postEvento();
             }
         });
 
